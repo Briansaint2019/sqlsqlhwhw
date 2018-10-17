@@ -12,3 +12,6 @@ SELECT `name`,`tenure`, `department` `course_name` FROM `professors`, `course` G
 
 5)
 SELECT `course_name`,`professor`,`description` `students` FROM `course` WHERE `students` >0
+
+
+tables are already created for results
