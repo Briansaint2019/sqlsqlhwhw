@@ -1,0 +1,14 @@
+1)
+SELECT `id`,`name`,`Current_courses`,`grade` from `student` GROUP BY `grade` DESC
+
+2)
+SELECT `name`,`status`, `Current_courses`,`status` from `student` WHERE `status` = 'grad' and `Current_courses`=0
+
+3)
+SELECT `grade`,`name` FROM `student`GROUP BY grade DESC
+
+4)
+SELECT `name`,`tenure`, `department` `course_name` FROM `professors`, `course` GROUP by `department`
+
+5)
+SELECT `course_name`,`professor`,`description` `students` FROM `course` WHERE `students` >0
